@@ -1,30 +1,9 @@
 # (Airline Passenger Satisfaction Exploration)
-## by (Ugwu Michael Ifeanyi)
 
 
 ## Dataset
 
 The data set is an airline satisfaction scores for 129,880 passengers, were each record represents one passenger. The records contain details about passenger demographics, flight distance, delays, travel class, purpose, ratings for factors such as cleanliness, comfort, service, and as well as overall satisfaction with the airline. The dataset can be found at https://www.mavenanalytics.io/data-playground
-
-**Summary of data wrangling** 
-1. Rows with null column
-2. Erroneous datatype('Arrival Delay' column datatype is float instead of int datatype)
-3. Erroneous datatype('Departure and Arrival Time Convenience' column datatype is int instead of object datatype)
-4. Erroneous datatype('Ease of Online Booking' column datatype is int instead of object datatype)
-5. Erroneous datatype('Check-in Service' column datatype is int instead of object datatype)
-6. Erroneous datatype('Online Boarding' column datatype is int instead of object datatype)
-7. Erroneous datatype('Seat Comfort' column datatype is int instead of object datatype)
-8. Erroneous datatype('Leg Room Service' column datatype is int instead of object datatype)
-9. Erroneous datatype('Cleanliness' column datatype is int instead of object datatype)
-10. Erroneous datatype('Food and Drink' column datatype is int instead of object datatype)
-11. Erroneous datatype('In-flight Service' column datatype is int instead of object datatype)
-12. Erroneous datatype('In-flight Wifi Service' column datatype is int instead of object datatype)
-13. Erroneous datatype('In-flight Entertainment' column datatype is int instead of object datatype)
-14. Erroneous datatype('Baggage Handling' column datatype is int instead of object datatype)
-15. Erroneous datatype('Gate Location' column datatype is int instead of object datatype)
-16. Erroneous datatype('On-board Service' column datatype is int instead of object datatype)
-
-
 
 **Data Dictionary**
 
@@ -57,8 +36,6 @@ The data set is an airline satisfaction scores for 129,880 passengers, were each
 ## Summary of Findings
 
 In the exploration, I found that there was a strong relationship between the departure delay and arrival delay. The relationship is approximately linear between departure delay and arrival delay. I also found a somewhat surprising finding, majority of the airline users are returning customer and majority type of travel was business.
-
-
 
 
 ## Key Insights for Presentation
